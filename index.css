@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.mainbg {
+    width: 100%;
+    height: clamp(40vh, 50vw, 100vh);
+    background-image: url(hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.mainbg::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: clamp(40vh, 50vw, 100vh);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+    width: 100px;
+}
+
+.zindex {
+    z-index: 10 !important;
+}
+
+.mainh1 {
+    font-family: Montserrat, sans-serif;
+    font-size: clamp(20px, 10vw, 80px);
+    margin-top: 30px;
+}
+
+.line {
+    width: 70px;
+    height: 3px;
+    background-color: green;
+    margin-top: 20px;
+}
+
+.quit {
+    width: clamp(30px, 20vw, 200px);
+}
+
+.mainh2 {
+    font-family: Montserrat, sans-serif;
+    font-size: clamp(20px, 5vw, 50px);
+    margin-top: 30px;
+    text-align: center;
+}
+
+.mainbg2 {
+    width: 100%;
+    height: clamp(40vh, 50vw, 100vh);
+    background-image: url(section-bg-img.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.mainbg2::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: clamp(40vh, 50vw, 100vh);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.mainh13 {
+    font-family: Montserrat, sans-serif;
+    font-size: 34px;
+    font-weight: 700;
+}
+
+/* about */
+.aboutbg {
+    width: 100%;
+    height: clamp(40vh, 50vw, 100vh);
+    background-image: url(about-bg-5.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+.aboutbg::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: clamp(40vh, 50vw, 100vh);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.redline{
+    width: 60px;
+    height: 3px;
+    background-color: rgb(249, 6, 6);
+    
+}
+
+
+/* servisec */
+.servisbg {
+    width: 100%;
+    height: clamp(40vh, 50vw, 100vh);
+    background-image: url(services-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+.servisbg::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: clamp(40vh, 50vw, 100vh);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.mainh14 {
+    font-family: Montserrat, sans-serif;
+    font-size: 60px;
+    font-weight: 750;
+    letter-spacing: 5px;
+}
+
+
+
+
+
+
+
+

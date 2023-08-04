@@ -1,0 +1,145 @@
+
+
+.setting3 {
+    position: absolute;
+    right: 6%;
+    top: 75vh;
+    font-size: 30px;
+    padding: 1%;
+    border-radius: 50%;
+    background-color: #ECA909;
+    position: fixed;
+    transition: all .5s;
+    z-index: 100;
+    animation-name: gear;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+}
+
+@keyframes gear {
+
+    100% {
+        transform: rotate(360deg);
+    }
+
+
+}
+
+.setting3-2 {
+    right: 40%;
+}
+
+.settbox {
+    border-radius: 20px;
+    width: max-content;
+    height: max-content;
+    padding: 20px;
+    background-color: #FFFFFF;
+    position: fixed;
+    right: -45%;
+    top: 58vh;
+    transition: all .5s;
+   
+}
+
+.settbox-2 {
+    right: 0;
+    margin-top: 75px;
+    z-index: 100;
+}
+
+.sidebox {
+    width: 100%;
+    height: 24.5%;
+   
+}
+
+
+.sidebox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.color {
+   margin: 5px;
+    padding: 5px 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 10px;
+    opacity: .5;
+    border: 3px dotted;
+
+}
+
+.color:hover {
+    opacity: 1;
+    border: 3px orange dashed;
+    
+}
+
+.color-1 {
+    background-color: crimson;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.color-2 {
+    background-color: #31A66A;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.color-3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ECA909;
+}
+
+.color-4 {
+    background-color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.color-5 {
+    background-color: teal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.color-6 {
+    background-color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.color-7 {
+    background-color: blueviolet;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.color-8 {
+    background-color: brown;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.color-9 {
+    background-color: burlywood;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.color-10 {
+    background-color: cornflowerblue;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+.colors {
+    width: 80px;
+    border-radius: 20px;
+   cursor: pointer;
+    text-align: center;
+}
+
+
+
+
